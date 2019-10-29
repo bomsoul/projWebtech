@@ -1,0 +1,96 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    background-size: 1500px 1000px;
+  }
+  #logout{
+    position: relative;
+    left:650px;
+    padding: 5px;
+    font-size: 23px;
+       
+}
+#obj{
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 20px;
+    left: 700px;
+    top: 20px;
+    border-style:solid;
+}   
+#oldp-label{
+    position: relative;
+    left: 50px;
+    top:30px;
+    font-size: 30px;
+}
+#oldp{
+    width: 400px;
+    position: relative;
+    left:50px;
+    top:30px;
+    font-size: 30px;
+}
+#newp-label{
+    position: relative;
+    left: 50px;
+    top:30px;
+    font-size: 30px;
+}
+#newp{
+    width: 400px;
+    position: relative;
+    left: 50px;
+    top:30px;
+    font-size: 30px;
+}
+#newp2-label{
+    position: relative;
+    left: 50px;
+    top:30px;
+    font-size: 30px;
+}
+#newp2{
+    width: 400px;
+    position: relative;
+    left: 50px;
+    top:30px;
+    font-size: 30px;
+}
+
+
+#submitinfo{
+position: relative;
+left: 790px;
+bottom: 300px;
+margin-bottom: 40px;
+font-size:30px;
+}
+/*nav link animation*/
+.nav-link{
+    font-size: 15px;
+}
+.nav-link span {
+cursor: pointer;
+position: relative;
+transition: 0.5s;
+}
+.nav-link span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+.nav-link:hover span {
+padding-right: 25px;
+}
+.nav-link:hover span:after {
+opacity: 1;
+right: 0;
+}
+
+#warning{
+    font-size: 50px;
+    left :1000px;  
+}

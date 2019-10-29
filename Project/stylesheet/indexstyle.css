@@ -1,0 +1,15 @@
+
+.container {
+    -webkit-border-radius: 10px 60px 10px 10px;
+    border-radius: 50px 50px 50px 50px;
+    background: #fff;
+    padding: 100px;
+    width: 90%;
+    max-width: 1100px;
+    bottom: -130px;
+    position: relative;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+  }
+  
